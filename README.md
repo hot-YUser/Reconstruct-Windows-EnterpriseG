@@ -305,7 +305,7 @@ DISM.exe /Unmount-Wim /MountDir:"Mount_Dir" /commit
 At this point, the system image has been successfully changed to Enterprise Edition G!
 
 ## Postscript
-Please refer to the original author's article:)
+Please refer to the [original author's article](https://www.xrgzs.top/posts/convert-entg) :)
 
 # Disclaimer
 The copyrights of this Windows system and software belong to their respective owners. They are only used for personal packaging technology research and exchange, and may not be used for commercial purposes. The manufacturer of this system is not responsible for any technical and copyright issues. Please delete it within 24 hours after trial.
