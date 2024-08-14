@@ -1,6 +1,5 @@
 # Windows 10/11 Enterprise G Rebuild Method
-Note: This article was translated, rewritten and moved from https://www.xrgzs.top/posts/convert-entg in order to allow more people to see it.
-Many details have been omitted in this article, please refer to the source of the original author.
+[繁體中文](https://github.com/hot-YUser/Reconstruct-Windows-EnterpriseG/blob/main/README%E4%B8%AD%E6%96%87.md)[简体中文](https://www.xrgzs.top/posts/convert-entg)
 ## What is Enterprise Edition G
 There are many versions of Windows Enterprise, such as N version (EU version), S version (LTSB/LTSC), and G version
 
