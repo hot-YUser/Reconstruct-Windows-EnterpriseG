@@ -50,7 +50,7 @@ Microsoft-Windows-Editions-EnterpriseG-Package-amd64H2 zh-CN (required starting 
 Microsoft-Windows-EnterpriseGEdition
 Microsoft-Windows-EnterpriseGEdition-Wrapper
 ```
-In addition, obtaining the installation component package is also very complicated, which involves the system update mode of Windows 10 - UUP. I will omit the explanation here. If you are interested, you can read the original author's article.
+In addition, obtaining the installation component package is also very complicated, which involves the system update mode of Windows 10 - UUP. I will omit the explanation here. If you are interested, you can read the [original author's article](https://www.xrgzs.top/posts/convert-entg).
 ### Where to find component packages?
 All components can be found in UUP. After all, EnterpriseG itself also supports upgrades.
 
