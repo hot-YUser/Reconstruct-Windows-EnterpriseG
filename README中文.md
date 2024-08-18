@@ -135,11 +135,11 @@ Microsoft-Windows-EnterpriseGEdition-Wrapper~31bf3856ad364e35~amd64~~10.0.26100.
 ##### 第三步
 執行以下命令掛載鏡像
 ```
-DISM.exe /Mount-Image / ImageFile:"install.wim" /Index: 1 /MountDir:"MountTemp"
+DISM.exe /Mount-Image /ImageFile:"install.wim" /Index:1 /MountDir:"MountTemp"
 ```
 這裡我的實際位置是
 ```
-DISM.exe /Mount-Image / ImageFile:"E:\install.wim" /Index: 1 /MountDir:"E:\MountTemp"
+DISM.exe /Mount-Image /ImageFile:"E:\install.wim" /Index:1 /MountDir:"E:\MountTemp"
 ```
 當然，此步驟也可以使用DISM++來操作。
 ##### 第四步
