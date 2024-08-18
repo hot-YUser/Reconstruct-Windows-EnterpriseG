@@ -174,7 +174,10 @@ bf3856ad364e35~amd64~~ 10 . 0 .*.*" "Mount_Dir\Windows\servicing\Packages"
 接下來我們要掛載註冊表，手動還原這個元件包的安裝信息
 
 執行以下命令，掛載`MountTemp\Windows\System32\config\SOFTWARE`註冊表（這個登錄機碼對應所掛載系統的HKLM\SOFTWARE）到`HKLM\EntGSOFTWARE`(名稱自訂，這裡只是示範)：
-```REG.exe LOAD HKLM\EntGSOFTWARE "MountTemp\Windows\System32\config\SOFTWARE"```(HKLM\EntGSOFTWARE記得替換成自己的名稱)
+```
+REG.exe LOAD HKLM\EntGSOFTWARE "MountTemp\Windows\System32\config\SOFTWARE"
+```
+(HKLM\EntGSOFTWARE記得替換成自己的名稱)
 當然，也可以手動用登錄編輯程式（regedit）操作
 
 ###### 匯入註冊表
