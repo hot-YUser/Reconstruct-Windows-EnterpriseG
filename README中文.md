@@ -158,6 +158,7 @@ FOR %a IN (entg1\*.mum) DO DISM.exe /Image:"MountTemp" /Add-Package /PackagePath
 ```
 FOR %a IN (entg2\*.mum) DO DISM.exe /Image:"MountTemp" /Add-Package /PackagePath:"%a"
 ```
+應該會有很多錯誤，也不用管它
 ##### 第六步
 接著我們要處理`entg3`底下的4個文件
 
